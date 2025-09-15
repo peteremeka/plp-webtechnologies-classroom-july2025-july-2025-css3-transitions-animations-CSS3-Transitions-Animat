@@ -1,0 +1,88 @@
+#prac_box {
+  width: 100px;
+  height: 100px;
+  margin: 1% auto 3%;
+  padding-top: 30px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 8s;
+  transition: width 2s;
+}
+
+#prac_box p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: tahoma;
+    color: white;
+}
+
+#prac_box:hover {
+  width: 500px;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.highlight {
+    background-color: yellow;
+    color: white;
+    padding: 10px;
+    border: 2px solid orange;
+}
+
+.btn{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#q_2{
+    margin-bottom: 5%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: lightgray;
+    transition: all 0.3s ease;
+}
+
+.active {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
