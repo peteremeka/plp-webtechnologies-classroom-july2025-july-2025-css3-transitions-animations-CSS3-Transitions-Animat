@@ -22,6 +22,11 @@
   width: 500px;
 }
 
+    /* Question Two */
+#q_2{
+    margin-bottom: 5%;
+}
+
 @keyframes example {
     0%   {background-color: red;}
     25%  {background-color: yellow;}
@@ -36,6 +41,7 @@
     border: 2px solid orange;
 }
 
+    /* All Buttons */
 .btn{
     font-size: 15px;
     font-weight: bold;
@@ -49,10 +55,7 @@
     cursor: pointer;
 }
 
-#q_2{
-    margin-bottom: 5%;
-}
-
+    /* Question Three */
 .box {
     width: 100px;
     height: 100px;
